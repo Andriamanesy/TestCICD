@@ -1,0 +1,443 @@
+body {
+    margin: 0; }
+
+  * {
+    box-sizing: border-box; }
+
+  html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff; }
+
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eeeeee; }
+ 
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px; }
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+  
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px; }
+ 
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+ 
+  @media (min-width: 992px) {
+   
+    .col-md-12 {
+      width: 100%; }
+
+
+    .col-md-offset-1 {
+      margin-left: 8.33333333%; }
+ }
+
+  .row:after {
+    content: " ";
+    display: table; }
+
+.row:after {
+    clear: both; }
+
+  html {
+    box-sizing: border-box; }
+  
+  *,
+  *:before,
+  *:after {
+    /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+    box-sizing: inherit; }
+  
+  body {
+    background: #fff;
+ }
+ 
+  hr {
+    background-color: #ccc;
+    border: 0;
+    height: 1px;
+    margin-bottom: 1.5em; }
+ 
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+
+  .sf-menu {
+    display: inline-block; }
+
+  @media (max-width: 991px) {
+    .sf-menu {
+      display: none; } }
+ 
+  .sf-menu > li {
+    display: inline-block; }
+  
+  .sf-menu > li > a {
+    position: relative;
+    display: block; }
+ 
+  .sf-menu a {
+    display: block;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    position: relative;
+    text-transform: uppercase; }
+  
+  .sf-menu li.dropdown li > a:hover,
+  .sf-menu li.dropdown li > a:focus {
+    color: #F66249;
+    background-color: #212226; }
+  
+  .sf-menu > li > a,
+  .sf-menu > li.dropdown > a {
+    padding: 15px 30px 15px 0;
+    color: #ffffff; }
+  
+  .sf-menu > li.current-menu-item > a,
+  .sf-menu > li.current > a {
+    color: #F66249; }
+  
+  .sf-menu > li.sfHover > a:hover,
+  .sf-menu > li.sfHover > a:focus,
+  .sf-menu > li > a:hover,
+  .sf-menu > li > a:focus {
+    color: #F66249; }
+  
+ #mobile-menu-trigger {
+    display: none;
+    padding: 28px 0;
+    padding: 1.86666666em 0;
+    background: transparent;
+    border: transparent; }
+  
+  @media (max-width: 991px) {
+    #mobile-menu-trigger {
+      display: inline-block; } }
+
+  .top-header-bar-container {
+    width: 100%;
+    background: #2b2e34;
+    color: #FFF;
+    vertical-align: middle; }
+    .top-header-bar-container a, .top-header-bar-container p, .top-header-bar-container i, .top-header-bar-container span, .top-header-bar-container input {
+      color: #FFF; }
+
+    .top-header-bar-container .top-header-bar li {
+      float: right;
+      line-height: 50px; }
+      .top-header-bar-container .top-header-bar li:first-child {
+        float: left; }
+      .top-header-bar-container .top-header-bar li.top-search {
+        margin-right: 11px; }
+        .top-header-bar-container .top-header-bar li.top-search input {
+          background: #25262b;
+          border: none;
+          color: #FFF;
+          font-size: 15px;
+          padding-left: 10px;
+          padding-right: 15px;
+          height: 30px;
+          transition: background 250ms cubic-bezier(0.075, 0.82, 0.165, 1) 0s; }
+
+      .top-header-bar-container .top-header-bar li.top-account {
+        padding-left: 20px;
+        margin-right: 20px;
+        border-left: 1px solid #353940; }
+        .top-header-bar-container .top-header-bar li.top-account a:hover, .top-header-bar-container .top-header-bar li.top-account a:focus {
+          color: #F66249; }
+      @media (max-width: 767px) {
+            .top-header-bar-container .top-header-bar li.top-search .pull-right {
+              float: none !important; } }
+      @media (max-width: 991px) {
+        .top-header-bar-container .top-header-bar li.top-search {
+          width: 100%;
+          text-align: center; }
+          .top-header-bar-container .top-header-bar li.top-search .pull-right {
+            float: none !important; } }
+  .site-header {
+    background: #25262B;
+    padding-top: 15px; }
+
+    .sub-menu-wrap{
+        position: absolute;
+        top: 100%;
+        right: -3%;
+        width: 250px;
+        max-height: 0px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        
+     }
+     .sub-menu-wrap.open-menu{
+        max-height: 400px;
+     }
+     
+     .sub-menu{
+        background: #BBB ;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 20px;
+        margin-top: 28%;
+     }
+     
+     .sub-menu-link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #525252;
+        margin:12px 0;
+     }
+     .sub-menu-link p{
+        width: 100%;
+         
+     }
+     .sub-menu-link img{
+        width: 40px;
+        border-radius: 50%;
+        padding: 8px;
+        margin-right: 15px;
+        border-color: transparent;
+        
+     }
+     
+     .sub-menu-link span{
+        font-size: 22px;
+        transition: tranform 0.5s;
+        cursor: pointer;
+     }
+     
+     .sub-menu-link :hover span{
+        transform: translateX(5px);
+        
+     }
+     .sub-menu-link:hover p{
+        font-weight: 600;
+       
+     }
+     .actualite{
+      display: block;
+
+     }
+     .demandeDeConge{
+      display: none;
+
+     }
+     .doléances{
+      display: none;
+
+     }
+     .questionnaires{
+      display: none;
+
+    }
+.titr{
+  text-align: center;
+  margin-top: 2%;
+  text-decoration: underline;
+}
+/*Demande de congé*/
+.career-form {
+  background-color: #4e63d7;
+  border-radius: 5px;
+  padding: 0 16px;
+}
+
+.career-form .form-control {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0;
+  padding: 12px 15px;
+  color: #fff;
+}
+
+.career-form .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+
+.career-form .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #fff;
+}
+
+.career-form .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #fff;
+}
+
+.career-form .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #fff;
+}
+
+.career-form .custom-select {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 0;
+  padding: 12px 15px;
+  color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  text-align: left;
+  height: auto;
+  background-image: none;
+}
+
+.career-form .custom-select:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.career-form .select-container {
+  position: relative;
+}
+
+.career-form .select-container:before {
+  position: absolute;
+  right: 15px;
+  top: calc(50% - 14px);
+  font-size: 18px;
+  color: #ffffff;
+  content: '\F2F9';
+  font-family: "Material-Design-Iconic-Font";
+}
+
+.filter-result .job-box {
+  -webkit-box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+          box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+  border-radius: 10px;
+  padding: 10px 35px;
+}
+
+ul {
+  list-style: none; 
+}
+
+.list-disk li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+.list-disk li:last-child {
+  margin-bottom: 0;
+}
+
+.job-box .img-holder {
+  height: 65px;
+  width: 65px;
+  background-color: #4e63d7;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(78, 99, 215, 0.9)), to(#5a85dd));
+  background-image: linear-gradient(to right, rgba(78, 99, 215, 0.9) 0%, #5a85dd 100%);
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 65px;
+}
+
+.career-title {
+  background-color: #4e63d7;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(78, 99, 215, 0.9)), to(#5a85dd));
+  background-image: linear-gradient(to right, rgba(78, 99, 215, 0.9) 0%, #5a85dd 100%);
+}
+
+.job-overview {
+  -webkit-box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+          box-shadow: 0 0 35px 0 rgba(130, 130, 130, 0.2);
+  border-radius: 10px;
+}
+
+@media (min-width: 992px) {
+  .job-overview {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 70px;
+  }
+}
+
+.job-overview .job-detail ul {
+  margin-bottom: 28px;
+}
+
+.job-overview .job-detail ul li {
+  opacity: 0.75;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.job-overview .job-detail ul li i {
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}
+
+.job-overview .overview-bottom,
+.job-overview .overview-top {
+  padding: 35px;
+}
+
+.job-content ul li {
+  font-weight: 600;
+  opacity: 0.75;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 5px;
+}
+
+@media (min-width: 768px) {
+  .job-content ul li {
+    border-bottom: 0;
+    padding: 0;
+  }
+}
+
+.job-content ul li i {
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+
